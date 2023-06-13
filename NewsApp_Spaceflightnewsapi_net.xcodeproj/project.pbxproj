@@ -11,6 +11,8 @@
 		CE52E81C2A305A2A0021F17B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52E81B2A305A2A0021F17B /* ContentView.swift */; };
 		CE52E81E2A305A2B0021F17B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE52E81D2A305A2B0021F17B /* Assets.xcassets */; };
 		CE52E8212A305A2B0021F17B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE52E8202A305A2B0021F17B /* Preview Assets.xcassets */; };
+		CE52E8292A305CB60021F17B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52E8282A305CB60021F17B /* DataModel.swift */; };
+		CE52E82C2A30619C0021F17B /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52E82B2A30619C0021F17B /* ApiCall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CE52E81B2A305A2A0021F17B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE52E81D2A305A2B0021F17B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE52E8202A305A2B0021F17B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE52E8282A305CB60021F17B /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CE52E82B2A30619C0021F17B /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		CE52E8182A305A2A0021F17B /* NewsApp_Spaceflightnewsapi_net */ = {
 			isa = PBXGroup;
 			children = (
+				CE52E82E2A30641F0021F17B /* View */,
 				CE52E8192A305A2A0021F17B /* NewsApp_Spaceflightnewsapi_netApp.swift */,
-				CE52E81B2A305A2A0021F17B /* ContentView.swift */,
+				CE52E82A2A30617B0021F17B /* ViewModel */,
+				CE52E8272A305C850021F17B /* Model */,
 				CE52E81D2A305A2B0021F17B /* Assets.xcassets */,
 				CE52E81F2A305A2B0021F17B /* Preview Content */,
 			);
@@ -65,6 +71,30 @@
 				CE52E8202A305A2B0021F17B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE52E8272A305C850021F17B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE52E8282A305CB60021F17B /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE52E82A2A30617B0021F17B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE52E82B2A30619C0021F17B /* ApiCall.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE52E82E2A30641F0021F17B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE52E81B2A305A2A0021F17B /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +169,8 @@
 			files = (
 				CE52E81C2A305A2A0021F17B /* ContentView.swift in Sources */,
 				CE52E81A2A305A2A0021F17B /* NewsApp_Spaceflightnewsapi_netApp.swift in Sources */,
+				CE52E82C2A30619C0021F17B /* ApiCall.swift in Sources */,
+				CE52E8292A305CB60021F17B /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
