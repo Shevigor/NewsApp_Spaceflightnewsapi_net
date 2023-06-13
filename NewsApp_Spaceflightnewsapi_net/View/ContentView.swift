@@ -41,6 +41,7 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("News")
+            .foregroundColor(.blue)
             .task {
                 vm.fetchData()
             }
