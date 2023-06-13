@@ -28,11 +28,13 @@ struct ContentView: View {
                             Text(news.title)
                                 .font(.title3)
                                 .fontWeight(.bold)
+                                .foregroundColor(.blue)
                             Text(news.summary)
                                 .font(.callout)
                                 .fontWeight(.bold)
 //                            Text(news.publishedAt.formatted(.dateTime .month() .day() .year() .hour() .minute()))
                             Text(news.datePublished.formatted(date: .long, time: .shortened))
+                                .foregroundColor(.red)
                             Link(destination: URL(string: news.url)!, label: {
                                 Text("")
                             })
