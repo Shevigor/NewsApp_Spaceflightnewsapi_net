@@ -42,7 +42,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("News")
+            .navigationTitle("News--")
             .task {
                 vm.fetchData()
             }
